@@ -1,0 +1,289 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to k8sdc\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-k8sdc", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Welcome to k8sdc"
+        }, 
+        {
+            "location": "/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/#project-layout", 
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/project/purpose/", 
+            "text": "Purpose", 
+            "title": "Purpose"
+        }, 
+        {
+            "location": "/project/purpose/#purpose", 
+            "text": "", 
+            "title": "Purpose"
+        }, 
+        {
+            "location": "/project/overview/", 
+            "text": "Overview\n\n\nCapabilities\n\n\nAre the things that an environment or application can do. such as.  Capabilities can be mixed and matched in many different services / environments.  For instance a productivity capability provided by the k8sdc productivity services might require a highly available SQL database.  Equally and application in a development environment might also require such a capability.  In fact a capability, such as logging may have many sub-capabilities.  There is no hard line.\n\n\nSolutions\n\n\nCan be many solutions to a capability\n\n\nApplications\n\n\nAre composed of capabilities\n\n\nEnvironments\n\n\nAre a Kubernetes Namespace.  Are composed of applications and / or capabilities.  Within this documentation environments and namespaces are synonomous for each other.\n\n\nServices\n\n\nServices are a collection of capabilities provided within an environments.  For instance k8sdc provides a number of default capabilities segmented into specific namespaces.  There are also a number of caoabilities provided by default by Kubernetes and these live in the kube-system namespace.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/project/overview/#overview", 
+            "text": "", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/project/overview/#capabilities", 
+            "text": "Are the things that an environment or application can do. such as.  Capabilities can be mixed and matched in many different services / environments.  For instance a productivity capability provided by the k8sdc productivity services might require a highly available SQL database.  Equally and application in a development environment might also require such a capability.  In fact a capability, such as logging may have many sub-capabilities.  There is no hard line.", 
+            "title": "Capabilities"
+        }, 
+        {
+            "location": "/project/overview/#solutions", 
+            "text": "Can be many solutions to a capability", 
+            "title": "Solutions"
+        }, 
+        {
+            "location": "/project/overview/#applications", 
+            "text": "Are composed of capabilities", 
+            "title": "Applications"
+        }, 
+        {
+            "location": "/project/overview/#environments", 
+            "text": "Are a Kubernetes Namespace.  Are composed of applications and / or capabilities.  Within this documentation environments and namespaces are synonomous for each other.", 
+            "title": "Environments"
+        }, 
+        {
+            "location": "/project/overview/#services", 
+            "text": "Services are a collection of capabilities provided within an environments.  For instance k8sdc provides a number of default capabilities segmented into specific namespaces.  There are also a number of caoabilities provided by default by Kubernetes and these live in the kube-system namespace.", 
+            "title": "Services"
+        }, 
+        {
+            "location": "/project/roadmap/", 
+            "text": "", 
+            "title": "Roadmap"
+        }, 
+        {
+            "location": "/project/installation/vagrant/", 
+            "text": "Vagrant Installation", 
+            "title": "Vagrant"
+        }, 
+        {
+            "location": "/project/installation/vagrant/#vagrant-installation", 
+            "text": "", 
+            "title": "Vagrant Installation"
+        }, 
+        {
+            "location": "/project/installation/digital_ocean/", 
+            "text": "Digital Ocean Installation", 
+            "title": "Digital Ocean"
+        }, 
+        {
+            "location": "/project/installation/digital_ocean/#digital-ocean-installation", 
+            "text": "", 
+            "title": "Digital Ocean Installation"
+        }, 
+        {
+            "location": "/project/installation/aws/", 
+            "text": "AWS Installation", 
+            "title": "AWS"
+        }, 
+        {
+            "location": "/project/installation/aws/#aws-installation", 
+            "text": "", 
+            "title": "AWS Installation"
+        }, 
+        {
+            "location": "/project/verify_install/", 
+            "text": "Verifying Installation", 
+            "title": "Verifying Installation"
+        }, 
+        {
+            "location": "/project/verify_install/#verifying-installation", 
+            "text": "", 
+            "title": "Verifying Installation"
+        }, 
+        {
+            "location": "/project/custom_install/", 
+            "text": "Customising Installation", 
+            "title": "Customising Installation"
+        }, 
+        {
+            "location": "/project/custom_install/#customising-installation", 
+            "text": "", 
+            "title": "Customising Installation"
+        }, 
+        {
+            "location": "/services/cluster/overview/", 
+            "text": "", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/services/cluster/dns/", 
+            "text": "", 
+            "title": "DNS"
+        }, 
+        {
+            "location": "/services/cluster/registry/", 
+            "text": "", 
+            "title": "Docker Registry"
+        }, 
+        {
+            "location": "/services/cluster/logging/", 
+            "text": "", 
+            "title": "Logging"
+        }, 
+        {
+            "location": "/services/cluster/monitoring/", 
+            "text": "", 
+            "title": "Monitoring"
+        }, 
+        {
+            "location": "/services/cluster/kube-ui/", 
+            "text": "", 
+            "title": "Kube-UI"
+        }, 
+        {
+            "location": "/services/infrastructure/overview/", 
+            "text": "", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/services/infrastructure/load-balancing/", 
+            "text": "", 
+            "title": "Load Balancing"
+        }, 
+        {
+            "location": "/services/infrastructure/ldap/", 
+            "text": "", 
+            "title": "LDAP"
+        }, 
+        {
+            "location": "/services/infrastructure/roadmap/", 
+            "text": "Infrastructure Services Roadmap\n\n\nDistributed and replicated filesystem - solution GlusterFS", 
+            "title": "Roadmap"
+        }, 
+        {
+            "location": "/services/infrastructure/roadmap/#infrastructure-services-roadmap", 
+            "text": "Distributed and replicated filesystem - solution GlusterFS", 
+            "title": "Infrastructure Services Roadmap"
+        }, 
+        {
+            "location": "/services/development/overview/", 
+            "text": "", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/services/development/job-management/", 
+            "text": "", 
+            "title": "Job Management"
+        }, 
+        {
+            "location": "/services/development/artifact-management/", 
+            "text": "", 
+            "title": "Artifact Management"
+        }, 
+        {
+            "location": "/services/development/roadmap/", 
+            "text": "", 
+            "title": "Roadmap"
+        }, 
+        {
+            "location": "/services/development/overview/", 
+            "text": "", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/services/development/roadmap/", 
+            "text": "", 
+            "title": "Roadmap"
+        }, 
+        {
+            "location": "/examples/overview/", 
+            "text": "", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/examples/static-web-site/", 
+            "text": "", 
+            "title": "Static Web Site"
+        }, 
+        {
+            "location": "/examples/dynamic-web-site/", 
+            "text": "", 
+            "title": "Dynamic Web Site"
+        }, 
+        {
+            "location": "/examples/microservice/", 
+            "text": "", 
+            "title": "Microservice"
+        }, 
+        {
+            "location": "/examples/microservice-collection/", 
+            "text": "", 
+            "title": "Microservice Collection"
+        }, 
+        {
+            "location": "/examples/complex-app/", 
+            "text": "", 
+            "title": "Complex App"
+        }, 
+        {
+            "location": "/workflow/overview/", 
+            "text": "Workflow Guides\n\n\nWays to use the various solutions together to create combined workflows.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/workflow/overview/#workflow-guides", 
+            "text": "Ways to use the various solutions together to create combined workflows.", 
+            "title": "Workflow Guides"
+        }, 
+        {
+            "location": "/workflow/infrastructure/", 
+            "text": "", 
+            "title": "Infrastructure"
+        }, 
+        {
+            "location": "/workflow/development/", 
+            "text": "", 
+            "title": "Development"
+        }, 
+        {
+            "location": "/workflow/productivity/", 
+            "text": "", 
+            "title": "Productivity"
+        }, 
+        {
+            "location": "/reference/utilities/", 
+            "text": "", 
+            "title": "Utilities"
+        }, 
+        {
+            "location": "/reference/capabilities/", 
+            "text": "Capabilties\n\n\nA capability is ..... It can have many solutions and can be composed of a number of products.\n\n\nWeb Server\n\n\nApplication Server\n\n\nCaching\n\n\nDatabase\n\n\n\n\nSQL\n\n\nNOSQL\n\n\n\n\nMessaging", 
+            "title": "Capabilities"
+        }, 
+        {
+            "location": "/reference/capabilities/#capabilties", 
+            "text": "A capability is ..... It can have many solutions and can be composed of a number of products.  Web Server  Application Server  Caching  Database   SQL  NOSQL   Messaging", 
+            "title": "Capabilties"
+        }, 
+        {
+            "location": "/reference/solutions/", 
+            "text": "", 
+            "title": "Solutions"
+        }, 
+        {
+            "location": "/reference/products/", 
+            "text": "", 
+            "title": "Products"
+        }
+    ]
+}
