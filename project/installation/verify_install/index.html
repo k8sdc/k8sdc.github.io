@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="Des Drury (des@drury-family.com)">
-        <link rel="canonical" href="http://k8sdc.io/project/installation/vagrant/">
+        <link rel="canonical" href="http://k8sdc.io/project/installation/verify_install/">
         <link rel="shortcut icon" href="../../../img/favicon.ico">
 
-	<title>Vagrant - k8sdc</title>
+	<title>Verifying Installation - k8sdc</title>
 
         <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -75,8 +75,8 @@
     <ul class="dropdown-menu">
         
             
-<li class="active">
-    <a href="./">Vagrant</a>
+<li >
+    <a href="../vagrant/">Vagrant</a>
 </li>
 
         
@@ -93,8 +93,8 @@
 
         
             
-<li >
-    <a href="../verify_install/">Verifying Installation</a>
+<li class="active">
+    <a href="./">Verifying Installation</a>
 </li>
 
         
@@ -402,12 +402,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../../overview/">
+                        <a rel="next" href="../aws/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../digital_ocean/">
+                        <a rel="prev" href="../services/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -423,46 +423,83 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#vagrant-installation">Vagrant Installation</a></li>
-        
-            <li><a href="#pre-reqs">Pre-Reqs</a></li>
-        
-            <li><a href="#instructions">Instructions</a></li>
+        <li class="main active"><a href="#verifying-installation">Verifying Installation</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="vagrant-installation">Vagrant Installation</h1>
+<h1 id="verifying-installation">Verifying Installation</h1>
 <hr>
 
-<h2 id="pre-reqs">Pre-Reqs</h2>
-<p>k8sdc has been tested using the following products.</p>
-<p>Ansible 1.9.2</p>
-<p>Virtualbox 5.0.0</p>
-<p>Vagrant 1.7.4 and vagrant-hostmanager 1.6.1 plugin</p>
-<p>Mac OSX 10</p>
-<h2 id="instructions">Instructions</h2>
-<p>Start the installation process.</p>
-<p><strong>Notes</strong></p>
-<ul>
-<li>
-<p>It will take some time to download the base box and installation binaries. </p>
-</li>
-<li>
-<p>The vagrant-hostmanager plugin will ask for your admin password.  This is so that your local <code>/etc/hosts</code> file can be updated with the Kubernetes hostnames.</p>
-</li>
-</ul>
-<pre><code class="console">$ vagrant up
+<p>Use the following instructions to validate that the install has succeeded.  The hostnames used are the default Vagrant ones, replace as appropriate.</p>
+<pre><code class="console">$ vagrant ssh master.kub.io
+
+$ sudo su -
+
+$ kubectl get node
+NAME           LABELS                                STATUS
+node1.kub.io   kubernetes.io/hostname=node1.kub.io   Ready
+node2.kub.io   kubernetes.io/hostname=node2.kub.io   Ready
+
+$ kubectl run nginx --image=nginx --replicas=5
+CONTROLLER   CONTAINER(S)   IMAGE(S)   SELECTOR    REPLICAS
+nginx        nginx          nginx      run=nginx   5
 </code></pre>
 
-<p>If for any reason the Vagrant provisioning fails due to a timeout then rerun the provisioning with the following command.</p>
-<pre><code class="console">$ vagrant provision
+<p>It will take a while for Docker to download the nginx container.  Periodically check if the pods have been launched.</p>
+<pre><code class="console">$ kubectl get po
+NAME          READY     STATUS    RESTARTS   AGE
+nginx-2gkxs   1/1       Running   0          1m
+nginx-479e3   1/1       Running   0          1m
+nginx-gm7m8   1/1       Running   0          1m
+nginx-rtha7   1/1       Running   0          1m
+nginx-xfm0b   1/1       Running   0          1m
 </code></pre>
 
-<p>Once the Vagrant command completes test that Kubernetes is running.</p>
-<p><a href="../../../project/installation/verify_install/">Verifying Installation</a></p></div>
+<p>Create a service endpoint for the pods.</p>
+<pre><code class="console">$ kubectl expose rc nginx --port=80 --target-port=80
+NAME      LABELS      SELECTOR    IP(S)     PORT(S)
+nginx     run=nginx   run=nginx             80/TCP
+
+$ kubectl get se nginx
+NAME      LABELS      SELECTOR    IP(S)           PORT(S)
+nginx     run=nginx   run=nginx   10.254.105.42   80/TCP
+</code></pre>
+
+<p>Make a note of the assigned service IP address and log into node01.  This is required as only nodes running the kube-proxy service can access service IPs.</p>
+<pre><code class="console">$ vagrant ssh node1.kub.io
+
+$ curl 10.254.105.42
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>You should see the Nginx home page.</p></div>
             
         </div>
 

@@ -2,37 +2,37 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to k8sdc\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "text": "Welcome to k8sdc\n\n\n\n\n\nPurpose\n\n\ndatacenter, small / medium budinesss\n\n\nOverview\n\n\nuses kubernetes orchestrtaion\n\n\nInstallation\n\n\nlinks\n\n\nRoadmap", 
             "title": "Home"
         }, 
         {
             "location": "/#welcome-to-k8sdc", 
-            "text": "For full documentation visit  mkdocs.org .", 
+            "text": "", 
             "title": "Welcome to k8sdc"
         }, 
         {
-            "location": "/#commands", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
-            "title": "Commands"
-        }, 
-        {
-            "location": "/#project-layout", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout"
-        }, 
-        {
-            "location": "/project/purpose/", 
-            "text": "Purpose", 
+            "location": "/#purpose", 
+            "text": "datacenter, small / medium budinesss", 
             "title": "Purpose"
         }, 
         {
-            "location": "/project/purpose/#purpose", 
+            "location": "/#overview", 
+            "text": "uses kubernetes orchestrtaion", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/#installation", 
+            "text": "links", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/#roadmap", 
             "text": "", 
-            "title": "Purpose"
+            "title": "Roadmap"
         }, 
         {
             "location": "/project/overview/", 
-            "text": "Overview\n\n\nCapabilities\n\n\nAre the things that an environment or application can do. such as.  Capabilities can be mixed and matched in many different services / environments.  For instance a productivity capability provided by the k8sdc productivity services might require a highly available SQL database.  Equally and application in a development environment might also require such a capability.  In fact a capability, such as logging may have many sub-capabilities.  There is no hard line.\n\n\nSolutions\n\n\nCan be many solutions to a capability\n\n\nApplications\n\n\nAre composed of capabilities\n\n\nEnvironments\n\n\nAre a Kubernetes Namespace.  Are composed of applications and / or capabilities.  Within this documentation environments and namespaces are synonomous for each other.\n\n\nServices\n\n\nServices are a collection of capabilities provided within an environments.  For instance k8sdc provides a number of default capabilities segmented into specific namespaces.  There are also a number of caoabilities provided by default by Kubernetes and these live in the kube-system namespace.", 
+            "text": "Overview\n\n\n\n\n\nCapabilities\n\n\nAre the things that an environment or application can do. such as.  Capabilities can be mixed and matched in many different services / environments.  For instance a productivity capability provided by the k8sdc productivity services might require a highly available SQL database.  Equally and application in a development environment might also require such a capability.  In fact a capability, such as logging may have many sub-capabilities.  There is no hard line.\n\n\nSolutions\n\n\nCan be many solutions to a capability\n\n\nServices\n\n\nServices are a collection of capabilities provided within a namespaces, such as kube-system. For instance k8sdc provides a number of default capabilities segmented into specific namespaces.  There are also a number of caoabilities provided by default by Kubernetes and these live in the kube-system namespace.  Services can be thought of as applications.\n\n\nEnvironments\n\n\nAre a Kubernetes Namespace.  They are composed of services (groups of capabilities) and / or just capabilities.  Within this documentation environments and namespaces are synonomous for each other.\n\n\nSummary\n\n\nThe user is able to pick and choose the capabilities theyr require and compose them into applications / larger systems.", 
             "title": "Overview"
         }, 
         {
@@ -51,28 +51,23 @@
             "title": "Solutions"
         }, 
         {
-            "location": "/project/overview/#applications", 
-            "text": "Are composed of capabilities", 
-            "title": "Applications"
-        }, 
-        {
-            "location": "/project/overview/#environments", 
-            "text": "Are a Kubernetes Namespace.  Are composed of applications and / or capabilities.  Within this documentation environments and namespaces are synonomous for each other.", 
-            "title": "Environments"
-        }, 
-        {
             "location": "/project/overview/#services", 
-            "text": "Services are a collection of capabilities provided within an environments.  For instance k8sdc provides a number of default capabilities segmented into specific namespaces.  There are also a number of caoabilities provided by default by Kubernetes and these live in the kube-system namespace.", 
+            "text": "Services are a collection of capabilities provided within a namespaces, such as kube-system. For instance k8sdc provides a number of default capabilities segmented into specific namespaces.  There are also a number of caoabilities provided by default by Kubernetes and these live in the kube-system namespace.  Services can be thought of as applications.", 
             "title": "Services"
         }, 
         {
-            "location": "/project/roadmap/", 
-            "text": "", 
-            "title": "Roadmap"
+            "location": "/project/overview/#environments", 
+            "text": "Are a Kubernetes Namespace.  They are composed of services (groups of capabilities) and / or just capabilities.  Within this documentation environments and namespaces are synonomous for each other.", 
+            "title": "Environments"
+        }, 
+        {
+            "location": "/project/overview/#summary", 
+            "text": "The user is able to pick and choose the capabilities theyr require and compose them into applications / larger systems.", 
+            "title": "Summary"
         }, 
         {
             "location": "/project/installation/vagrant/", 
-            "text": "Vagrant Installation", 
+            "text": "Vagrant Installation\n\n\n\n\n\nPre-Reqs\n\n\nk8sdc has been tested using the following products.\n\n\nAnsible 1.9.2\n\n\nVirtualbox 5.0.0\n\n\nVagrant 1.7.4 and vagrant-hostmanager 1.6.1 plugin\n\n\nMac OSX 10\n\n\nInstructions\n\n\nStart the installation process.\n\n\nNotes\n\n\n\n\n\n\nIt will take some time to download the base box and installation binaries. \n\n\n\n\n\n\nThe vagrant-hostmanager plugin will ask for your admin password.  This is so that your local \n/etc/hosts\n file can be updated with the Kubernetes hostnames.\n\n\n\n\n\n\n$ vagrant up\n\n\n\n\nIf for any reason the Vagrant provisioning fails due to a timeout then rerun the provisioning with the following command.\n\n\n$ vagrant provision\n\n\n\n\nOnce the Vagrant command completes test that Kubernetes is running.\n\n\nVerifying Installation", 
             "title": "Vagrant"
         }, 
         {
@@ -81,184 +76,359 @@
             "title": "Vagrant Installation"
         }, 
         {
+            "location": "/project/installation/vagrant/#pre-reqs", 
+            "text": "k8sdc has been tested using the following products.  Ansible 1.9.2  Virtualbox 5.0.0  Vagrant 1.7.4 and vagrant-hostmanager 1.6.1 plugin  Mac OSX 10", 
+            "title": "Pre-Reqs"
+        }, 
+        {
+            "location": "/project/installation/vagrant/#instructions", 
+            "text": "Start the installation process.  Notes    It will take some time to download the base box and installation binaries.     The vagrant-hostmanager plugin will ask for your admin password.  This is so that your local  /etc/hosts  file can be updated with the Kubernetes hostnames.    $ vagrant up  If for any reason the Vagrant provisioning fails due to a timeout then rerun the provisioning with the following command.  $ vagrant provision  Once the Vagrant command completes test that Kubernetes is running.  Verifying Installation", 
+            "title": "Instructions"
+        }, 
+        {
             "location": "/project/installation/digital_ocean/", 
-            "text": "Digital Ocean Installation", 
+            "text": "Digital Ocean Installation\n\n\n\n\n\nTODO", 
             "title": "Digital Ocean"
         }, 
         {
             "location": "/project/installation/digital_ocean/#digital-ocean-installation", 
-            "text": "", 
+            "text": "TODO", 
             "title": "Digital Ocean Installation"
         }, 
         {
             "location": "/project/installation/aws/", 
-            "text": "AWS Installation", 
+            "text": "AWS Installation\n\n\n\n\n\nTODO", 
             "title": "AWS"
         }, 
         {
             "location": "/project/installation/aws/#aws-installation", 
-            "text": "", 
+            "text": "TODO", 
             "title": "AWS Installation"
         }, 
         {
-            "location": "/project/verify_install/", 
-            "text": "Verifying Installation", 
+            "location": "/project/installation/verify_install/", 
+            "text": "Verifying Installation\n\n\n\n\n\nUse the following instructions to validate that the install has succeeded.  The hostnames used are the default Vagrant ones, replace as appropriate.\n\n\n$ vagrant ssh master.kub.io\n\n$ sudo su -\n\n$ kubectl get node\nNAME           LABELS                                STATUS\nnode1.kub.io   kubernetes.io/hostname=node1.kub.io   Ready\nnode2.kub.io   kubernetes.io/hostname=node2.kub.io   Ready\n\n$ kubectl run nginx --image=nginx --replicas=5\nCONTROLLER   CONTAINER(S)   IMAGE(S)   SELECTOR    REPLICAS\nnginx        nginx          nginx      run=nginx   5\n\n\n\n\nIt will take a while for Docker to download the nginx container.  Periodically check if the pods have been launched.\n\n\n$ kubectl get po\nNAME          READY     STATUS    RESTARTS   AGE\nnginx-2gkxs   1/1       Running   0          1m\nnginx-479e3   1/1       Running   0          1m\nnginx-gm7m8   1/1       Running   0          1m\nnginx-rtha7   1/1       Running   0          1m\nnginx-xfm0b   1/1       Running   0          1m\n\n\n\n\nCreate a service endpoint for the pods.\n\n\n$ kubectl expose rc nginx --port=80 --target-port=80\nNAME      LABELS      SELECTOR    IP(S)     PORT(S)\nnginx     run=nginx   run=nginx             80/TCP\n\n$ kubectl get se nginx\nNAME      LABELS      SELECTOR    IP(S)           PORT(S)\nnginx     run=nginx   run=nginx   10.254.105.42   80/TCP\n\n\n\n\nMake a note of the assigned service IP address and log into node01.  This is required as only nodes running the kube-proxy service can access service IPs.\n\n\n$ vagrant ssh node1.kub.io\n\n$ curl 10.254.105.42\n\n!DOCTYPE html\n\n\nhtml\n\n\nhead\n\n\ntitle\nWelcome to nginx!\n/title\n\n\nstyle\n\n    body {\n        width: 35em;\n        margin: 0 auto;\n        font-family: Tahoma, Verdana, Arial, sans-serif;\n    }\n\n/style\n\n\n/head\n\n\nbody\n\n\nh1\nWelcome to nginx!\n/h1\n\n\np\nIf you see this page, the nginx web server is successfully installed and\nworking. Further configuration is required.\n/p\n\n\n\np\nFor online documentation and support please refer to\n\na href=\nhttp://nginx.org/\nnginx.org\n/a\n.\nbr/\n\nCommercial support is available at\n\na href=\nhttp://nginx.com/\nnginx.com\n/a\n.\n/p\n\n\n\np\nem\nThank you for using nginx.\n/em\n/p\n\n\n/body\n\n\n/html\n\n\n\n\n\nYou should see the Nginx home page.", 
             "title": "Verifying Installation"
         }, 
         {
-            "location": "/project/verify_install/#verifying-installation", 
-            "text": "", 
+            "location": "/project/installation/verify_install/#verifying-installation", 
+            "text": "Use the following instructions to validate that the install has succeeded.  The hostnames used are the default Vagrant ones, replace as appropriate.  $ vagrant ssh master.kub.io\n\n$ sudo su -\n\n$ kubectl get node\nNAME           LABELS                                STATUS\nnode1.kub.io   kubernetes.io/hostname=node1.kub.io   Ready\nnode2.kub.io   kubernetes.io/hostname=node2.kub.io   Ready\n\n$ kubectl run nginx --image=nginx --replicas=5\nCONTROLLER   CONTAINER(S)   IMAGE(S)   SELECTOR    REPLICAS\nnginx        nginx          nginx      run=nginx   5  It will take a while for Docker to download the nginx container.  Periodically check if the pods have been launched.  $ kubectl get po\nNAME          READY     STATUS    RESTARTS   AGE\nnginx-2gkxs   1/1       Running   0          1m\nnginx-479e3   1/1       Running   0          1m\nnginx-gm7m8   1/1       Running   0          1m\nnginx-rtha7   1/1       Running   0          1m\nnginx-xfm0b   1/1       Running   0          1m  Create a service endpoint for the pods.  $ kubectl expose rc nginx --port=80 --target-port=80\nNAME      LABELS      SELECTOR    IP(S)     PORT(S)\nnginx     run=nginx   run=nginx             80/TCP\n\n$ kubectl get se nginx\nNAME      LABELS      SELECTOR    IP(S)           PORT(S)\nnginx     run=nginx   run=nginx   10.254.105.42   80/TCP  Make a note of the assigned service IP address and log into node01.  This is required as only nodes running the kube-proxy service can access service IPs.  $ vagrant ssh node1.kub.io\n\n$ curl 10.254.105.42 !DOCTYPE html  html  head  title Welcome to nginx! /title  style \n    body {\n        width: 35em;\n        margin: 0 auto;\n        font-family: Tahoma, Verdana, Arial, sans-serif;\n    } /style  /head  body  h1 Welcome to nginx! /h1  p If you see this page, the nginx web server is successfully installed and\nworking. Further configuration is required. /p  p For online documentation and support please refer to a href= http://nginx.org/ nginx.org /a . br/ \nCommercial support is available at a href= http://nginx.com/ nginx.com /a . /p  p em Thank you for using nginx. /em /p  /body  /html   You should see the Nginx home page.", 
             "title": "Verifying Installation"
         }, 
         {
-            "location": "/project/custom_install/", 
-            "text": "Customising Installation", 
+            "location": "/project/installation/services/", 
+            "text": "Accessing Services", 
+            "title": "Accessing Services"
+        }, 
+        {
+            "location": "/project/installation/services/#accessing-services", 
+            "text": "", 
+            "title": "Accessing Services"
+        }, 
+        {
+            "location": "/project/installation/custom_install/", 
+            "text": "Customising Installation\n\n\n\n\n\nTODO", 
             "title": "Customising Installation"
         }, 
         {
-            "location": "/project/custom_install/#customising-installation", 
-            "text": "", 
+            "location": "/project/installation/custom_install/#customising-installation", 
+            "text": "TODO", 
             "title": "Customising Installation"
         }, 
         {
-            "location": "/services/cluster/overview/", 
-            "text": "", 
+            "location": "/project/services/cluster/overview/", 
+            "text": "Cluster Services Overview\n\n\nCapabilities\n\n\nTODO", 
             "title": "Overview"
         }, 
         {
-            "location": "/services/cluster/dns/", 
+            "location": "/project/services/cluster/overview/#cluster-services-overview", 
             "text": "", 
+            "title": "Cluster Services Overview"
+        }, 
+        {
+            "location": "/project/services/cluster/overview/#capabilities", 
+            "text": "TODO", 
+            "title": "Capabilities"
+        }, 
+        {
+            "location": "/project/services/cluster/dns/", 
+            "text": "DNS Cluster Service\n\n\nIMPLEMENTED\n\n\nDocumentation TODO", 
             "title": "DNS"
         }, 
         {
-            "location": "/services/cluster/registry/", 
-            "text": "", 
+            "location": "/project/services/cluster/dns/#dns-cluster-service", 
+            "text": "IMPLEMENTED  Documentation TODO", 
+            "title": "DNS Cluster Service"
+        }, 
+        {
+            "location": "/project/services/cluster/registry/", 
+            "text": "Docker Registry Cluster Service\n\n\nIMPLEMENTED \n\n\nDocumentation TODO", 
             "title": "Docker Registry"
         }, 
         {
-            "location": "/services/cluster/logging/", 
-            "text": "", 
+            "location": "/project/services/cluster/registry/#docker-registry-cluster-service", 
+            "text": "IMPLEMENTED   Documentation TODO", 
+            "title": "Docker Registry Cluster Service"
+        }, 
+        {
+            "location": "/project/services/cluster/logging/", 
+            "text": "Logging Cluster Service\n\n\nIMPLEMENTED\n\n\nDocumentation TODO", 
             "title": "Logging"
         }, 
         {
-            "location": "/services/cluster/monitoring/", 
-            "text": "", 
+            "location": "/project/services/cluster/logging/#logging-cluster-service", 
+            "text": "IMPLEMENTED  Documentation TODO", 
+            "title": "Logging Cluster Service"
+        }, 
+        {
+            "location": "/project/services/cluster/monitoring/", 
+            "text": "Monitoring Cluster Service\n\n\nTODO", 
             "title": "Monitoring"
         }, 
         {
-            "location": "/services/cluster/kube-ui/", 
-            "text": "", 
+            "location": "/project/services/cluster/monitoring/#monitoring-cluster-service", 
+            "text": "TODO", 
+            "title": "Monitoring Cluster Service"
+        }, 
+        {
+            "location": "/project/services/cluster/kube-ui/", 
+            "text": "Kube-UI Cluster Service\n\n\nIMPLEMENTED\n\n\nDocumentation TODO", 
             "title": "Kube-UI"
         }, 
         {
-            "location": "/services/infrastructure/overview/", 
-            "text": "", 
+            "location": "/project/services/cluster/kube-ui/#kube-ui-cluster-service", 
+            "text": "IMPLEMENTED  Documentation TODO", 
+            "title": "Kube-UI Cluster Service"
+        }, 
+        {
+            "location": "/project/services/infrastructure/overview/", 
+            "text": "Infrastructure Services Overview\n\n\nCapabilities\n\n\nDocumentation TODO", 
             "title": "Overview"
         }, 
         {
-            "location": "/services/infrastructure/load-balancing/", 
+            "location": "/project/services/infrastructure/overview/#infrastructure-services-overview", 
             "text": "", 
+            "title": "Infrastructure Services Overview"
+        }, 
+        {
+            "location": "/project/services/infrastructure/overview/#capabilities", 
+            "text": "Documentation TODO", 
+            "title": "Capabilities"
+        }, 
+        {
+            "location": "/project/services/infrastructure/load-balancing/", 
+            "text": "Load Balancer Service\n\n\nIMPLEMENTED \n\n\nUsing \nVulcand\n and \nRomulus\n for the solution. \n\n\nDetails\n\n\nDocumentation TODO", 
             "title": "Load Balancing"
         }, 
         {
-            "location": "/services/infrastructure/ldap/", 
-            "text": "", 
+            "location": "/project/services/infrastructure/load-balancing/#load-balancer-service", 
+            "text": "IMPLEMENTED   Using  Vulcand  and  Romulus  for the solution.", 
+            "title": "Load Balancer Service"
+        }, 
+        {
+            "location": "/project/services/infrastructure/load-balancing/#details", 
+            "text": "Documentation TODO", 
+            "title": "Details"
+        }, 
+        {
+            "location": "/project/services/infrastructure/ldap/", 
+            "text": "LDAP Infrastructure Service\n\n\nIMPLEMENTED\n\n\nUsing \nOpenDJ\n for the solution.\n\n\nDetails\n\n\nDocumentation TODO", 
             "title": "LDAP"
         }, 
         {
-            "location": "/services/infrastructure/roadmap/", 
-            "text": "Infrastructure Services Roadmap\n\n\nDistributed and replicated filesystem - solution GlusterFS", 
+            "location": "/project/services/infrastructure/ldap/#ldap-infrastructure-service", 
+            "text": "IMPLEMENTED  Using  OpenDJ  for the solution.", 
+            "title": "LDAP Infrastructure Service"
+        }, 
+        {
+            "location": "/project/services/infrastructure/ldap/#details", 
+            "text": "Documentation TODO", 
+            "title": "Details"
+        }, 
+        {
+            "location": "/project/services/infrastructure/roadmap/", 
+            "text": "Infrastructure Services Roadmap\n\n\nCapabilities\n\n\nDistributed and replicated filesystem - solution GlusterFS\n\n\nTODO", 
             "title": "Roadmap"
         }, 
         {
-            "location": "/services/infrastructure/roadmap/#infrastructure-services-roadmap", 
-            "text": "Distributed and replicated filesystem - solution GlusterFS", 
+            "location": "/project/services/infrastructure/roadmap/#infrastructure-services-roadmap", 
+            "text": "", 
             "title": "Infrastructure Services Roadmap"
         }, 
         {
-            "location": "/services/development/overview/", 
-            "text": "", 
+            "location": "/project/services/infrastructure/roadmap/#capabilities", 
+            "text": "Distributed and replicated filesystem - solution GlusterFS  TODO", 
+            "title": "Capabilities"
+        }, 
+        {
+            "location": "/project/services/development/overview/", 
+            "text": "Development Services Overview\n\n\nCapabilities\n\n\nTODO", 
             "title": "Overview"
         }, 
         {
-            "location": "/services/development/job-management/", 
+            "location": "/project/services/development/overview/#development-services-overview", 
             "text": "", 
+            "title": "Development Services Overview"
+        }, 
+        {
+            "location": "/project/services/development/overview/#capabilities", 
+            "text": "TODO", 
+            "title": "Capabilities"
+        }, 
+        {
+            "location": "/project/services/development/job-management/", 
+            "text": "Job Management Development Service\n\n\nIMPLEMENTED\n\n\nUsing \nJenkins\n for the solution.\n\n\nDetails\n\n\nDocumentation TODO", 
             "title": "Job Management"
         }, 
         {
-            "location": "/services/development/artifact-management/", 
-            "text": "", 
+            "location": "/project/services/development/job-management/#job-management-development-service", 
+            "text": "IMPLEMENTED  Using  Jenkins  for the solution.", 
+            "title": "Job Management Development Service"
+        }, 
+        {
+            "location": "/project/services/development/job-management/#details", 
+            "text": "Documentation TODO", 
+            "title": "Details"
+        }, 
+        {
+            "location": "/project/services/development/artifact-management/", 
+            "text": "Artifact Management Development Service\n\n\nIMPLEMENTED\n\n\nUsing \nArtifactory\n for the solution.\n\n\nDetails\n\n\nDocumentation TODO", 
             "title": "Artifact Management"
         }, 
         {
-            "location": "/services/development/roadmap/", 
-            "text": "", 
+            "location": "/project/services/development/artifact-management/#artifact-management-development-service", 
+            "text": "IMPLEMENTED  Using  Artifactory  for the solution.", 
+            "title": "Artifact Management Development Service"
+        }, 
+        {
+            "location": "/project/services/development/artifact-management/#details", 
+            "text": "Documentation TODO", 
+            "title": "Details"
+        }, 
+        {
+            "location": "/project/services/development/roadmap/", 
+            "text": "Development Services Roadmap\n\n\nCapabilities\n\n\nTODO", 
             "title": "Roadmap"
         }, 
         {
-            "location": "/services/development/overview/", 
+            "location": "/project/services/development/roadmap/#development-services-roadmap", 
             "text": "", 
+            "title": "Development Services Roadmap"
+        }, 
+        {
+            "location": "/project/services/development/roadmap/#capabilities", 
+            "text": "TODO", 
+            "title": "Capabilities"
+        }, 
+        {
+            "location": "/project/services/development/overview/", 
+            "text": "Development Services Overview\n\n\nCapabilities\n\n\nTODO", 
             "title": "Overview"
         }, 
         {
-            "location": "/services/development/roadmap/", 
+            "location": "/project/services/development/overview/#development-services-overview", 
             "text": "", 
+            "title": "Development Services Overview"
+        }, 
+        {
+            "location": "/project/services/development/overview/#capabilities", 
+            "text": "TODO", 
+            "title": "Capabilities"
+        }, 
+        {
+            "location": "/project/services/development/roadmap/", 
+            "text": "Development Services Roadmap\n\n\nCapabilities\n\n\nTODO", 
             "title": "Roadmap"
         }, 
         {
-            "location": "/examples/overview/", 
+            "location": "/project/services/development/roadmap/#development-services-roadmap", 
             "text": "", 
-            "title": "Overview"
+            "title": "Development Services Roadmap"
         }, 
         {
-            "location": "/examples/static-web-site/", 
-            "text": "", 
-            "title": "Static Web Site"
+            "location": "/project/services/development/roadmap/#capabilities", 
+            "text": "TODO", 
+            "title": "Capabilities"
         }, 
         {
-            "location": "/examples/dynamic-web-site/", 
-            "text": "", 
-            "title": "Dynamic Web Site"
+            "location": "/project/roadmap/", 
+            "text": "Services Roadmap\n\n\n\n\n\nThe following lists contain items that are intended to make it into the k8sdc platform. However, these items are likely to change.\n\n\nDone but needs more work\n\n\n\n\nKubernetes cluster services (as per Kubernetes standards)\n\n\nExternal facing HTTP/S load balancer (Vulcand and Romulus)\n\n\nJob Management (Jenkins)\n\n\nArtifact Management (Artifactory)\n\n\nLDAP (OpenDJ)\n\n\n\n\nPriority\n\n\nRoughly in order of priority.\n\n\n\n\nDistributed storage (GlusterFS)\n\n\nHighly available SQL database (PotgreSQL)\n\n\nInstant Messaging (Mattermost)\n\n\nProject management (Taiga)\n\n\nApplication logging and alerting (ELK and Prometheus)\n\n\nMicroservices example application\n\n\nPaaS (Select Openshift V3 capabilities)\n\n\n\n\nSecondary\n\n\nIn no particular order.\n\n\n\n\nGit\n\n\nCode review\n\n\nBlog\n\n\nWiki\n\n\nCMS\n\n\nForum\n\n\nEmail\n\n\nProject management\n\n\nReporting and analytics\n\n\nVPN\n\n\nPerformance / usability testing\n\n\nMessaging\n\n\nDatabase\n\n\nCaching\n\n\nBatch", 
+            "title": "Roadmap"
         }, 
         {
-            "location": "/examples/microservice/", 
-            "text": "", 
-            "title": "Microservice"
+            "location": "/project/roadmap/#services-roadmap", 
+            "text": "The following lists contain items that are intended to make it into the k8sdc platform. However, these items are likely to change.", 
+            "title": "Services Roadmap"
         }, 
         {
-            "location": "/examples/microservice-collection/", 
-            "text": "", 
-            "title": "Microservice Collection"
+            "location": "/project/roadmap/#done-but-needs-more-work", 
+            "text": "Kubernetes cluster services (as per Kubernetes standards)  External facing HTTP/S load balancer (Vulcand and Romulus)  Job Management (Jenkins)  Artifact Management (Artifactory)  LDAP (OpenDJ)", 
+            "title": "Done but needs more work"
         }, 
         {
-            "location": "/examples/complex-app/", 
-            "text": "", 
-            "title": "Complex App"
+            "location": "/project/roadmap/#priority", 
+            "text": "Roughly in order of priority.   Distributed storage (GlusterFS)  Highly available SQL database (PotgreSQL)  Instant Messaging (Mattermost)  Project management (Taiga)  Application logging and alerting (ELK and Prometheus)  Microservices example application  PaaS (Select Openshift V3 capabilities)", 
+            "title": "Priority"
         }, 
         {
-            "location": "/workflow/overview/", 
+            "location": "/project/roadmap/#secondary", 
+            "text": "In no particular order.   Git  Code review  Blog  Wiki  CMS  Forum  Email  Project management  Reporting and analytics  VPN  Performance / usability testing  Messaging  Database  Caching  Batch", 
+            "title": "Secondary"
+        }, 
+        {
+            "location": "/guides/workflow/overview/", 
             "text": "Workflow Guides\n\n\nWays to use the various solutions together to create combined workflows.", 
             "title": "Overview"
         }, 
         {
-            "location": "/workflow/overview/#workflow-guides", 
+            "location": "/guides/workflow/overview/#workflow-guides", 
             "text": "Ways to use the various solutions together to create combined workflows.", 
             "title": "Workflow Guides"
         }, 
         {
-            "location": "/workflow/infrastructure/", 
+            "location": "/guides/workflow/infrastructure/", 
             "text": "", 
             "title": "Infrastructure"
         }, 
         {
-            "location": "/workflow/development/", 
+            "location": "/guides/workflow/development/", 
             "text": "", 
             "title": "Development"
         }, 
         {
-            "location": "/workflow/productivity/", 
+            "location": "/guides/workflow/productivity/", 
             "text": "", 
             "title": "Productivity"
+        }, 
+        {
+            "location": "/guides/examples/overview/", 
+            "text": "", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/guides/examples/static-web-site/", 
+            "text": "", 
+            "title": "Static Web Site"
+        }, 
+        {
+            "location": "/guides/examples/dynamic-web-site/", 
+            "text": "", 
+            "title": "Dynamic Web Site"
+        }, 
+        {
+            "location": "/guides/examples/microservice/", 
+            "text": "", 
+            "title": "Microservice"
+        }, 
+        {
+            "location": "/guides/examples/microservice-collection/", 
+            "text": "", 
+            "title": "Microservice Collection"
+        }, 
+        {
+            "location": "/guides/examples/complex-app/", 
+            "text": "", 
+            "title": "Complex App"
         }, 
         {
             "location": "/reference/utilities/", 
@@ -267,7 +437,7 @@
         }, 
         {
             "location": "/reference/capabilities/", 
-            "text": "Capabilties\n\n\nA capability is ..... It can have many solutions and can be composed of a number of products.\n\n\nWeb Server\n\n\nApplication Server\n\n\nCaching\n\n\nDatabase\n\n\n\n\nSQL\n\n\nNOSQL\n\n\n\n\nMessaging", 
+            "text": "Capabilties\n\n\n\n\n\nA capability is ..... It can have many solutions and can be composed of a number of products.\n\n\nWeb Server\n\n\nApplication Server\n\n\nCaching\n\n\nDatabase\n\n\n\n\nSQL\n\n\nNOSQL\n\n\n\n\nMessaging", 
             "title": "Capabilities"
         }, 
         {
@@ -279,6 +449,11 @@
             "location": "/reference/solutions/", 
             "text": "", 
             "title": "Solutions"
+        }, 
+        {
+            "location": "/reference/services/", 
+            "text": "", 
+            "title": "Services"
         }, 
         {
             "location": "/reference/products/", 

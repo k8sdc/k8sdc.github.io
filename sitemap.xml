@@ -3,8 +3,8 @@
 
     
     <url>
-     <loc>None/</loc>
-     <lastmod>2015-12-16</lastmod>
+     <loc>http://k8sdc.io/</loc>
+     <lastmod>2015-12-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,38 +12,26 @@
     
         
     <url>
-     <loc>None/project/purpose/</loc>
-     <lastmod>2015-12-16</lastmod>
+     <loc>http://k8sdc.io/project/overview/</loc>
+     <lastmod>2015-12-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/project/overview/</loc>
-     <lastmod>2015-12-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/project/roadmap/</loc>
-     <lastmod>2015-12-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None</loc>
+     <loc>http://k8sdc.io</loc>
      <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/project/verify_install/</loc>
-     <lastmod>2015-12-16</lastmod>
+     <loc>http://k8sdc.io</loc>
+     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/project/custom_install/</loc>
-     <lastmod>2015-12-16</lastmod>
+     <loc>http://k8sdc.io/project/roadmap/</loc>
+     <lastmod>2015-12-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -52,25 +40,13 @@
     
         
     <url>
-     <loc>None</loc>
+     <loc>http://k8sdc.io</loc>
      <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None</loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None</loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None</loc>
+     <loc>http://k8sdc.io</loc>
      <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -80,94 +56,32 @@
     
         
     <url>
-     <loc>None/examples/overview/</loc>
-     <lastmod>2015-12-16</lastmod>
+     <loc>http://k8sdc.io/reference/utilities/</loc>
+     <lastmod>2015-12-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/examples/static-web-site/</loc>
-     <lastmod>2015-12-16</lastmod>
+     <loc>http://k8sdc.io/reference/capabilities/</loc>
+     <lastmod>2015-12-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/examples/dynamic-web-site/</loc>
-     <lastmod>2015-12-16</lastmod>
+     <loc>http://k8sdc.io/reference/solutions/</loc>
+     <lastmod>2015-12-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/examples/microservice/</loc>
-     <lastmod>2015-12-16</lastmod>
+     <loc>http://k8sdc.io/reference/services/</loc>
+     <lastmod>2015-12-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/examples/microservice-collection/</loc>
-     <lastmod>2015-12-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/examples/complex-app/</loc>
-     <lastmod>2015-12-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>None/workflow/overview/</loc>
-     <lastmod>2015-12-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/workflow/infrastructure/</loc>
-     <lastmod>2015-12-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/workflow/development/</loc>
-     <lastmod>2015-12-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/workflow/productivity/</loc>
-     <lastmod>2015-12-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>None/reference/utilities/</loc>
-     <lastmod>2015-12-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/reference/capabilities/</loc>
-     <lastmod>2015-12-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/reference/solutions/</loc>
-     <lastmod>2015-12-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/reference/products/</loc>
-     <lastmod>2015-12-16</lastmod>
+     <loc>http://k8sdc.io/reference/products/</loc>
+     <lastmod>2015-12-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

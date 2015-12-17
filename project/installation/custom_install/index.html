@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="Des Drury (des@drury-family.com)">
-        <link rel="canonical" href="http://k8sdc.io/project/installation/vagrant/">
+        <link rel="canonical" href="http://k8sdc.io/project/installation/custom_install/">
         <link rel="shortcut icon" href="../../../img/favicon.ico">
 
-	<title>Vagrant - k8sdc</title>
+	<title>Customising Installation - k8sdc</title>
 
         <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -75,8 +75,8 @@
     <ul class="dropdown-menu">
         
             
-<li class="active">
-    <a href="./">Vagrant</a>
+<li >
+    <a href="../vagrant/">Vagrant</a>
 </li>
 
         
@@ -105,8 +105,8 @@
 
         
             
-<li >
-    <a href="../custom_install/">Customising Installation</a>
+<li class="active">
+    <a href="./">Customising Installation</a>
 </li>
 
         
@@ -402,12 +402,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../../overview/">
+                        <a rel="next" href="../services/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../digital_ocean/">
+                        <a rel="prev" href="../../services/cluster/overview/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -423,46 +423,17 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#vagrant-installation">Vagrant Installation</a></li>
-        
-            <li><a href="#pre-reqs">Pre-Reqs</a></li>
-        
-            <li><a href="#instructions">Instructions</a></li>
+        <li class="main active"><a href="#customising-installation">Customising Installation</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="vagrant-installation">Vagrant Installation</h1>
+<h1 id="customising-installation">Customising Installation</h1>
 <hr>
 
-<h2 id="pre-reqs">Pre-Reqs</h2>
-<p>k8sdc has been tested using the following products.</p>
-<p>Ansible 1.9.2</p>
-<p>Virtualbox 5.0.0</p>
-<p>Vagrant 1.7.4 and vagrant-hostmanager 1.6.1 plugin</p>
-<p>Mac OSX 10</p>
-<h2 id="instructions">Instructions</h2>
-<p>Start the installation process.</p>
-<p><strong>Notes</strong></p>
-<ul>
-<li>
-<p>It will take some time to download the base box and installation binaries. </p>
-</li>
-<li>
-<p>The vagrant-hostmanager plugin will ask for your admin password.  This is so that your local <code>/etc/hosts</code> file can be updated with the Kubernetes hostnames.</p>
-</li>
-</ul>
-<pre><code class="console">$ vagrant up
-</code></pre>
-
-<p>If for any reason the Vagrant provisioning fails due to a timeout then rerun the provisioning with the following command.</p>
-<pre><code class="console">$ vagrant provision
-</code></pre>
-
-<p>Once the Vagrant command completes test that Kubernetes is running.</p>
-<p><a href="../../../project/installation/verify_install/">Verifying Installation</a></p></div>
+<p>TODO</p></div>
             
         </div>
 
