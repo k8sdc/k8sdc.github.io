@@ -117,7 +117,7 @@
         }, 
         {
             "location": "/project/services/cluster/overview/", 
-            "text": "Cluster Services Overview\n\n\nThe cluster services are provided by the Kubernetes project.  At present there are the following services.\n\n\n\n\n\n\nDNS\n\n\n\n\n\n\nDocker Registry\n\n\n\n\n\n\nLogging\n\n\n\n\n\n\nMonitoring\n - \ntodo\n\n\n\n\n\n\nKube-UI", 
+            "text": "Cluster Services Overview\n\n\n\n\n\nThe cluster services are provided by the Kubernetes project.  At present there are the following services.\n\n\n\n\n\n\nDNS\n\n\n\n\n\n\nDocker Registry\n\n\n\n\n\n\nLogging\n\n\n\n\n\n\nMonitoring\n - \ntodo\n\n\n\n\n\n\nKube-UI", 
             "title": "Overview"
         }, 
         {
@@ -127,7 +127,7 @@
         }, 
         {
             "location": "/project/services/cluster/dns/", 
-            "text": "DNS Cluster Service\n\n\nIMPLEMENTED\n\n\nDocumentation TODO", 
+            "text": "DNS Cluster Service\n\n\n\n\n\nIMPLEMENTED\n\n\nDocumentation TODO", 
             "title": "DNS"
         }, 
         {
@@ -137,7 +137,7 @@
         }, 
         {
             "location": "/project/services/cluster/registry/", 
-            "text": "Docker Registry Cluster Service\n\n\nIMPLEMENTED \n\n\nDocumentation TODO", 
+            "text": "Docker Registry Cluster Service\n\n\n\n\n\nIMPLEMENTED \n\n\nDocumentation TODO", 
             "title": "Docker Registry"
         }, 
         {
@@ -147,7 +147,7 @@
         }, 
         {
             "location": "/project/services/cluster/logging/", 
-            "text": "Logging Cluster Service\n\n\nIMPLEMENTED\n\n\nDocumentation TODO", 
+            "text": "Logging Cluster Service\n\n\n\n\n\nIMPLEMENTED\n\n\nDocumentation TODO", 
             "title": "Logging"
         }, 
         {
@@ -157,7 +157,7 @@
         }, 
         {
             "location": "/project/services/cluster/monitoring/", 
-            "text": "Monitoring Cluster Service\n\n\nTODO", 
+            "text": "Monitoring Cluster Service\n\n\n\n\n\nTODO", 
             "title": "Monitoring"
         }, 
         {
@@ -167,7 +167,7 @@
         }, 
         {
             "location": "/project/services/cluster/kube-ui/", 
-            "text": "Kube-UI Cluster Service\n\n\nIMPLEMENTED\n\n\nDocumentation TODO", 
+            "text": "Kube-UI Cluster Service\n\n\n\n\n\nIMPLEMENTED\n\n\nDocumentation TODO", 
             "title": "Kube-UI"
         }, 
         {
@@ -237,7 +237,7 @@
         }, 
         {
             "location": "/project/services/development/overview/", 
-            "text": "Development Services Overview\n\n\nCapabilities\n\n\nTODO", 
+            "text": "Development Services Overview\n\n\n\n\n\nCapabilities\n\n\nTODO", 
             "title": "Overview"
         }, 
         {
@@ -252,7 +252,7 @@
         }, 
         {
             "location": "/project/services/development/job-management/", 
-            "text": "Job Management Development Service\n\n\nIMPLEMENTED\n\n\nUsing \nJenkins\n for the solution.\n\n\nDetails\n\n\nDocumentation TODO", 
+            "text": "Job Management Development Service\n\n\n\n\n\nIMPLEMENTED\n\n\nUsing \nJenkins\n for the solution.\n\n\nDetails\n\n\nDocumentation TODO", 
             "title": "Job Management"
         }, 
         {
@@ -267,7 +267,7 @@
         }, 
         {
             "location": "/project/services/development/artifact-management/", 
-            "text": "Artifact Management Development Service\n\n\nIMPLEMENTED\n\n\nUsing \nArtifactory\n for the solution.\n\n\nDetails\n\n\nDocumentation TODO", 
+            "text": "Artifact Management Development Service\n\n\n\n\n\nIMPLEMENTED\n\n\nUsing \nArtifactory\n for the solution.\n\n\nDetails\n\n\nDocumentation TODO", 
             "title": "Artifact Management"
         }, 
         {
@@ -282,7 +282,7 @@
         }, 
         {
             "location": "/project/services/development/roadmap/", 
-            "text": "Development Services Roadmap\n\n\nCapabilities\n\n\nTODO", 
+            "text": "Development Services Roadmap\n\n\n\n\n\nCapabilities\n\n\nTODO", 
             "title": "Roadmap"
         }, 
         {
@@ -297,7 +297,7 @@
         }, 
         {
             "location": "/project/services/development/overview/", 
-            "text": "Development Services Overview\n\n\nCapabilities\n\n\nTODO", 
+            "text": "Development Services Overview\n\n\n\n\n\nCapabilities\n\n\nTODO", 
             "title": "Overview"
         }, 
         {
@@ -312,7 +312,7 @@
         }, 
         {
             "location": "/project/services/development/roadmap/", 
-            "text": "Development Services Roadmap\n\n\nCapabilities\n\n\nTODO", 
+            "text": "Development Services Roadmap\n\n\n\n\n\nCapabilities\n\n\nTODO", 
             "title": "Roadmap"
         }, 
         {
@@ -452,7 +452,7 @@
         }, 
         {
             "location": "/reference/utilities/", 
-            "text": "Utilities\n\n\nThere are a number of utility scripts provide by k8sdc.  This section details them.\n\n\nVagrant Restart Fix\n\n\nWhen the Vagrant managed k8sdc nodes are restarted some of the required services do not automatically come back up.  This is a a known Vagrant issue with the rpcbind service and it does not happen when using Digital Ocean.  To remedy this the \nvagrant_restart_fix.sh\n should be run after each restart of Vagrant.\n\n\n$ cd utilities\n\n$ ./vagrant_restart_fix.sh\n\n\n\n\nHosts File Setup\n\n\nThis utility sets up the local \n/etc/hosts\n file to include the k8sdc services FQDNs.\n\n\n$ cd utilities\n\n$ ./hosts_file_setup.sh", 
+            "text": "Utilities\n\n\n\n\n\nThere are a number of utility scripts provide by k8sdc.  This section details them.\n\n\nVagrant Restart Fix\n\n\nWhen the Vagrant managed k8sdc nodes are restarted some of the required services do not automatically come back up.  This is a a known Vagrant issue with the rpcbind service and it does not happen when using Digital Ocean.  To remedy this the \nvagrant_restart_fix.sh\n should be run after each restart of Vagrant.\n\n\n$ cd utilities\n\n$ ./vagrant_restart_fix.sh\n\n\n\n\nHosts File Setup\n\n\nThis utility sets up the local \n/etc/hosts\n file to include the k8sdc services FQDNs.\n\n\n$ cd utilities\n\n$ ./hosts_file_setup.sh", 
             "title": "Utilities"
         }, 
         {
