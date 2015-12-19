@@ -23,6 +23,16 @@
         <![endif]-->
 
         
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-71453622-2', 'k8sdc.github.io');
+            ga('send', 'pageview');
+        </script>
+        
     </head>
 
     <body class="homepage">
@@ -62,12 +72,6 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="project/overview/">Overview</a>
-</li>
-
                         
                             
   <li class="dropdown-submenu">
@@ -340,7 +344,7 @@
         
             
 <li >
-    <a href="guides/examples/complex-app/">Complex App</a>
+    <a href="guides/examples/complex-app/">Complex Application</a>
 </li>
 
         
@@ -407,7 +411,7 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="project/overview/">
+                        <a rel="prev" href="project/installation/vagrant/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -427,11 +431,11 @@
         
             <li><a href="#purpose">Purpose</a></li>
         
-            <li><a href="#overview">Overview</a></li>
+            <li><a href="#topology">Topology</a></li>
+        
+            <li><a href="#ansible">Ansible</a></li>
         
             <li><a href="#installation">Installation</a></li>
-        
-            <li><a href="#roadmap">Roadmap</a></li>
         
     
     </ul>
@@ -442,12 +446,31 @@
 <hr>
 
 <h2 id="purpose">Purpose</h2>
-<p>datacenter, small / medium budinesss</p>
-<h2 id="overview">Overview</h2>
-<p>uses kubernetes orchestrtaion</p>
+<p>k8sdc, aka Kubernetes Datacenter, is a project to create the capabilities of an entire datacenter infrastructure sat atop <a href="http://kubernetes.io">Kubernetes</a>.  This includes all of the software needed for CI/CD, source control, code review, artifact storage, centralised logging and alerting, user registry, mail server, load balancing, VPN, blogs, wiki, productivity tools, etc.</p>
+<p>The intention is to give small / medium and non-profit organisations the ability to stand up an infrastructure that rivals the capabilities of an enterprise at little to no cost and within hours.</p>
+<p>The k8sdc platform will be cloud provider agnostic.  It may make use of some cloud provider capabilities, such as external load balancers, but this will be as an alternative to core capabilities.</p>
+<p>There will be simple <a href="guides/workflow/overview/">workflow guides</a> that describe each of the capabilities and how to use them in combination.  This will allow development and delivery of applications in a simple, rapid and robust manner.</p>
+<p>This is a long term project and as such it will take some time to develop.  Especially if the quality is to be kept high.  Initially just the core Kubernetes infrastructure and services are being delivered.  But this will soon be supplemented with additional capabilities.  Please see the <a href="project/roadmap/">Roadmap</a> for further information.</p>
+<h2 id="topology">Topology</h2>
+<p>The core k8sdc topology is a simple Kubernetes master plus n x nodes topology.  As can seen below.</p>
+<p><img alt="k8sdc topology" src="./images/k8sdc_topology.png" /></p>
+<p>As k8sdc grows there will be additional node types that have specialised roles, even though they are still orchestrated by Kubernetes.  Such as for network storage, external load balancers, etc.</p>
+<p>There will be a collection of namespaces to contain the k8sdc services.  Application environments can then be created in additonal namespaces.</p>
+<p>The Kubernetes networking is configured using Flannel.</p>
+<h2 id="ansible">Ansible</h2>
+<p><a href="http://www.ansible.com">Ansible</a> is used to build and configure the k8sdc platform.  Instead of using a particular Linux distributions package manager the binaries for Kubernetes, Flannel, Docker and Etcd are all downloaded directly, meaning that the latest versions can be used.</p>
 <h2 id="installation">Installation</h2>
-<p>links</p>
-<h2 id="roadmap">Roadmap</h2></div>
+<ul>
+<li>
+<p><a href="project/installation/vagrant/">Vagrant</a></p>
+</li>
+<li>
+<p><a href="project/installation/digital_ocean/">Digital Ocean</a> - <em>todo</em></p>
+</li>
+<li>
+<p><a href="project/installation/aws/">AWS</a> - <em>todo</em></p>
+</li>
+</ul></div>
             
         </div>
 
@@ -494,5 +517,5 @@
 
 <!--
 MkDocs version : 0.14.0
-Build Date UTC : 2015-12-17 09:46:20.767344
+Build Date UTC : 2015-12-19 00:52:36.872689
 -->

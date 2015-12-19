@@ -23,6 +23,16 @@
         <![endif]-->
 
         
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-71453622-2', 'k8sdc.github.io');
+            ga('send', 'pageview');
+        </script>
+        
     </head>
 
     <body>
@@ -62,12 +72,6 @@
                     <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../../overview/">Overview</a>
-</li>
-
                         
                             
   <li class="dropdown-submenu">
@@ -340,7 +344,7 @@
         
             
 <li >
-    <a href="../../../guides/examples/complex-app/">Complex App</a>
+    <a href="../../../guides/examples/complex-app/">Complex Application</a>
 </li>
 
         
@@ -434,18 +438,17 @@
 <hr>
 
 <p>Use the following instructions to validate that the install has succeeded.  The hostnames used are the default Vagrant ones, replace as appropriate.</p>
-<pre><code class="console">$ vagrant ssh master.kub.io
+<pre><code class="console">$ vagrant ssh master.k8sdc.io
 
 $ sudo su -
 
 $ kubectl get node
 NAME           LABELS                                STATUS
-node1.kub.io   kubernetes.io/hostname=node1.kub.io   Ready
-node2.kub.io   kubernetes.io/hostname=node2.kub.io   Ready
+node1.k8sdc.io   kubernetes.io/hostname=node1.k8sdc.io   Ready
+node2.k8sdc.io   kubernetes.io/hostname=node2.k8sdc.io   Ready
 
 $ kubectl run nginx --image=nginx --replicas=5
-CONTROLLER   CONTAINER(S)   IMAGE(S)   SELECTOR    REPLICAS
-nginx        nginx          nginx      run=nginx   5
+replicationcontroller &quot;nginx&quot; created
 </code></pre>
 
 <p>It will take a while for Docker to download the nginx container.  Periodically check if the pods have been launched.</p>
@@ -460,18 +463,17 @@ nginx-xfm0b   1/1       Running   0          1m
 
 <p>Create a service endpoint for the pods.</p>
 <pre><code class="console">$ kubectl expose rc nginx --port=80 --target-port=80
-NAME      LABELS      SELECTOR    IP(S)     PORT(S)
-nginx     run=nginx   run=nginx             80/TCP
+service &quot;nginx&quot; exposed
 
-$ kubectl get se nginx
-NAME      LABELS      SELECTOR    IP(S)           PORT(S)
-nginx     run=nginx   run=nginx   10.254.105.42   80/TCP
+$ kubectl get svc nginx
+NAME      CLUSTER_IP     EXTERNAL_IP   PORT(S)   SELECTOR    AGE
+nginx     10.254.4.181   &lt;none&gt;        80/TCP    run=nginx   1m
 </code></pre>
 
-<p>Make a note of the assigned service IP address and log into node01.  This is required as only nodes running the kube-proxy service can access service IPs.</p>
-<pre><code class="console">$ vagrant ssh node1.kub.io
+<p>Make a note of the assigned cluster IP address and log into node1.  This is required as only nodes running the kube-proxy service can access service IPs.</p>
+<pre><code class="console">$ vagrant ssh node1.k8sdc.io
 
-$ curl 10.254.105.42
+$ curl 10.254.4.181
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;

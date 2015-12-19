@@ -23,6 +23,16 @@
         <![endif]-->
 
         
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-71453622-2', 'k8sdc.github.io');
+            ga('send', 'pageview');
+        </script>
+        
     </head>
 
     <body>
@@ -62,12 +72,6 @@
                     <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../overview/">Overview</a>
-</li>
-
                         
                             
   <li class="dropdown-submenu">
@@ -340,7 +344,7 @@
         
             
 <li >
-    <a href="../../guides/examples/complex-app/">Complex App</a>
+    <a href="../../guides/examples/complex-app/">Complex Application</a>
 </li>
 
         
@@ -442,7 +446,13 @@
 <p>The following lists contain items that are intended to make it into the k8sdc platform. However, these items are likely to change.</p>
 <h2 id="done-but-needs-more-work">Done but needs more work</h2>
 <ul>
-<li>Kubernetes cluster services (as per Kubernetes standards)</li>
+<li>Kubernetes cluster services (as per Kubernetes standards)<ul>
+<li>DNS</li>
+<li>Docker registry</li>
+<li>Logging</li>
+<li>Kube-UI</li>
+</ul>
+</li>
 <li>External facing HTTP/S load balancer (Vulcand and Romulus)</li>
 <li>Job Management (Jenkins)</li>
 <li>Artifact Management (Artifactory)</li>
@@ -451,10 +461,10 @@
 <h2 id="priority">Priority</h2>
 <p>Roughly in order of priority.</p>
 <ul>
-<li>Distributed storage (GlusterFS)</li>
 <li>Highly available SQL database (PotgreSQL)</li>
 <li>Instant Messaging (Mattermost)</li>
 <li>Project management (Taiga)</li>
+<li>Distributed storage (GlusterFS)</li>
 <li>Application logging and alerting (ELK and Prometheus)</li>
 <li>Microservices example application</li>
 <li>PaaS (Select Openshift V3 capabilities)</li>

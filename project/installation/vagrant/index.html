@@ -23,6 +23,16 @@
         <![endif]-->
 
         
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-71453622-2', 'k8sdc.github.io');
+            ga('send', 'pageview');
+        </script>
+        
     </head>
 
     <body>
@@ -62,12 +72,6 @@
                     <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../../overview/">Overview</a>
-</li>
-
                         
                             
   <li class="dropdown-submenu">
@@ -340,7 +344,7 @@
         
             
 <li >
-    <a href="../../../guides/examples/complex-app/">Complex App</a>
+    <a href="../../../guides/examples/complex-app/">Complex Application</a>
 </li>
 
         
@@ -402,7 +406,7 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../../overview/">
+                        <a rel="next" href="../../..">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
@@ -439,10 +443,24 @@
 
 <h2 id="pre-reqs">Pre-Reqs</h2>
 <p>k8sdc has been tested using the following products.</p>
+<ul>
+<li>
 <p>Ansible 1.9.2</p>
+</li>
+<li>
 <p>Virtualbox 5.0.0</p>
+</li>
+<li>
 <p>Vagrant 1.7.4 and vagrant-hostmanager 1.6.1 plugin</p>
+</li>
+<li>
 <p>Mac OSX 10</p>
+</li>
+</ul>
+<p><strong>Note</strong></p>
+<ul>
+<li>The Macs that have tested the install have had 16GB RAM.  However, k8sdc should run in 8GB if not running any large programs.</li>
+</ul>
 <h2 id="instructions">Instructions</h2>
 <p>Start the installation process.</p>
 <p><strong>Notes</strong></p>
@@ -461,8 +479,15 @@
 <pre><code class="console">$ vagrant provision
 </code></pre>
 
-<p>Once the Vagrant command completes test that Kubernetes is running.</p>
-<p><a href="../../../project/installation/verify_install/">Verifying Installation</a></p></div>
+<p>Once the Vagrant command completes, k8sdc will begin pulling down the Docker images required to build the services.  This will take some time (at least 20 minutes).  Once this is done you can test the installation uisng either of the following guides.</p>
+<ul>
+<li>
+<p><a href="../verify_install/">Verifying Installation</a></p>
+</li>
+<li>
+<p><a href="../services/">Accessing Services</a></p>
+</li>
+</ul></div>
             
         </div>
 
