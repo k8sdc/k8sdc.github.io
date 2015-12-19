@@ -32,7 +32,7 @@
         }, 
         {
             "location": "/project/installation/vagrant/", 
-            "text": "Vagrant Installation\n\n\n\n\n\nPre-Reqs\n\n\nk8sdc has been tested using the following products.\n\n\n\n\n\n\nAnsible 1.9.2\n\n\n\n\n\n\nVirtualbox 5.0.0\n\n\n\n\n\n\nVagrant 1.7.4 and vagrant-hostmanager 1.6.1 plugin\n\n\n\n\n\n\nMac OSX 10\n\n\n\n\n\n\nNote\n\n\n\n\nThe Macs that have tested the install have had 16GB RAM.  However, k8sdc should run in 8GB if not running any large programs.\n\n\n\n\nInstructions\n\n\nStart the installation process.\n\n\nNotes\n\n\n\n\n\n\nIt will take some time to download the base box and installation binaries. \n\n\n\n\n\n\nThe vagrant-hostmanager plugin will ask for your admin password.  This is so that your local \n/etc/hosts\n file can be updated with the Kubernetes hostnames.\n\n\n\n\n\n\n$ vagrant up\n\n\n\n\nIf for any reason the Vagrant provisioning fails due to a timeout then rerun the provisioning with the following command.\n\n\n$ vagrant provision\n\n\n\n\nOnce the Vagrant command completes, k8sdc will begin pulling down the Docker images required to build the services.  This will take some time (at least 20 minutes).  Once this is done you can test the installation uisng either of the following guides.\n\n\n\n\n\n\nVerifying Installation\n\n\n\n\n\n\nAccessing Services", 
+            "text": "Vagrant Installation\n\n\n\n\n\nPre-Reqs\n\n\nk8sdc has been tested using the following products.\n\n\n\n\n\n\nAnsible 1.9.2\n\n\n\n\n\n\nVirtualbox 5.0.0\n\n\n\n\n\n\nVagrant 1.7.4 and vagrant-hostmanager 1.6.1 plugin\n\n\n\n\n\n\nMac OSX 10\n\n\n\n\n\n\nNote\n\n\n\n\nThe Macs that have tested the install have had 16GB RAM.  However, k8sdc should run in 8GB if not running any large programs.\n\n\n\n\nInstructions\n\n\nStart the installation process.\n\n\nNotes\n\n\n\n\n\n\nIt will take some time to download the base box and installation binaries. \n\n\n\n\n\n\nThe vagrant-hostmanager plugin will ask for your admin password.  This is so that your local \n/etc/hosts\n file can be updated with the Kubernetes hostnames.\n\n\n\n\n\n\n$ vagrant up\n\n\n\n\nIf for any reason the Vagrant provisioning fails due to a timeout then rerun the provisioning with the following command.\n\n\n$ vagrant provision\n\n\n\n\nOnce the Vagrant command completes, k8sdc will begin pulling down the Docker images required to build the services.  This will take some time (at least 20 minutes).  Once this is done you can test the installation uisng either of the following guides.\n\n\n\n\n\n\nVerifying Installation\n\n\n\n\n\n\nAccessing Services\n\n\n\n\n\n\nImportant Note\n\n\nPlease see the \nVagrant Restart Fix\n for details about restarting k8sdc when using Vagrant.", 
             "title": "Vagrant"
         }, 
         {
@@ -49,6 +49,11 @@
             "location": "/project/installation/vagrant/#instructions", 
             "text": "Start the installation process.  Notes    It will take some time to download the base box and installation binaries.     The vagrant-hostmanager plugin will ask for your admin password.  This is so that your local  /etc/hosts  file can be updated with the Kubernetes hostnames.    $ vagrant up  If for any reason the Vagrant provisioning fails due to a timeout then rerun the provisioning with the following command.  $ vagrant provision  Once the Vagrant command completes, k8sdc will begin pulling down the Docker images required to build the services.  This will take some time (at least 20 minutes).  Once this is done you can test the installation uisng either of the following guides.    Verifying Installation    Accessing Services", 
             "title": "Instructions"
+        }, 
+        {
+            "location": "/project/installation/vagrant/#important-note", 
+            "text": "Please see the  Vagrant Restart Fix  for details about restarting k8sdc when using Vagrant.", 
+            "title": "Important Note"
         }, 
         {
             "location": "/project/installation/digital_ocean/", 
@@ -452,7 +457,7 @@
         }, 
         {
             "location": "/reference/utilities/", 
-            "text": "Utilities\n\n\n\n\n\nThere are a number of utility scripts provide by k8sdc.  This section details them.\n\n\nVagrant Restart Fix\n\n\nWhen the Vagrant managed k8sdc nodes are restarted some of the required services do not automatically come back up.  This is a a known Vagrant issue with the rpcbind service and it does not happen when using Digital Ocean.  To remedy this the \nvagrant_restart_fix.sh\n should be run after each restart of Vagrant.\n\n\n$ cd utilities\n\n$ ./vagrant_restart_fix.sh\n\n\n\n\nHosts File Setup\n\n\nThis utility sets up the local \n/etc/hosts\n file to include the k8sdc services FQDNs.\n\n\n$ cd utilities\n\n$ ./hosts_file_setup.sh", 
+            "text": "Utilities\n\n\n\n\n\nThere are a number of utility scripts provide by k8sdc.  This section details them.\n\n\nVagrant Restart Fix\n\n\nWhen the Vagrant managed k8sdc nodes are restarted some of the required services do not automatically come back up.  This is a a known Vagrant issue with the rpcbind service and it does not happen when using Digital Ocean.  To remedy this the \nvagrant_restart_fix.sh\n should be run after each restart of Vagrant.\n\n\n$ cd utilities\n\n$ ./vagrant_restart_fix.sh\n\n\n\n\nHosts File Setup\n\n\nThis utility sets up the local \n/etc/hosts\n file to include the k8sdc services FQDNs. \n\n\nNote\n, you will be asked for your root password.\n\n\n$ cd utilities\n\n$ ./hosts_file_setup.sh", 
             "title": "Utilities"
         }, 
         {
@@ -467,7 +472,7 @@
         }, 
         {
             "location": "/reference/utilities/#hosts-file-setup", 
-            "text": "This utility sets up the local  /etc/hosts  file to include the k8sdc services FQDNs.  $ cd utilities\n\n$ ./hosts_file_setup.sh", 
+            "text": "This utility sets up the local  /etc/hosts  file to include the k8sdc services FQDNs.   Note , you will be asked for your root password.  $ cd utilities\n\n$ ./hosts_file_setup.sh", 
             "title": "Hosts File Setup"
         }, 
         {
