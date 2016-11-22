@@ -180,6 +180,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.6" data-path="changelog.html">
+            
+                <a href="changelog.html">
+            
+                    
+                    Changelog
+            
+                </a>
+            
+
+            
+        </li>
+    
 
     
         
@@ -1151,35 +1164,40 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="install">Install</h1><hr><p>The <strong>k8sdc</strong> platform can be installed using a number of different <a href="../providers/"><em>Providers</em></a>.  The <a href="../commands/k8sdc.html"><code>k8sdc</code></a> command allows for all <em>Providers</em> to have a similar method of installation.</p><hr><h2 id="test-environment">Test environment</h2><p><strong>k8sdc</strong> is a new project and is still considered <strong>experimental</strong>.  As such testing has only been conducted on a limited set of environments.  The following software versions are known to work.</p><ul><li>macOS 10.12
+                                <h1 id="install">Install</h1><hr><p>The <strong>k8sdc</strong> platform can be installed using a number of different <a href="../providers/"><em>Providers</em></a>.  The <a href="../commands/k8sdc.html"><code>k8sdc</code></a> command allows for all <em>Providers</em> to have a similar method of installation.</p><hr><h2 id="test-environment">Test environment</h2><p><strong>k8sdc</strong> is a new project and is still considered <strong>experimental</strong>.  As such testing has only been conducted with the Vagrant <em>Provider</em> on a limited set of environments.  The following software versions are known to work.</p><ul><li>macOS 10.12, CentOS 7.
 </li>
-<li>Python 2.7.12
+<li>Python 2.7.11, 2.7.12.
 </li>
-<li>Ansible 2.1.2.0 (must be this version as 2.2 breaks certificate generation)
+<li>Ansible 2.1.2.0 (must be this version as 2.2 breaks certificate generation).
 </li>
-<li>Vagrant 1.8.4
+<li>Vagrant 1.8.7.
 </li>
-<li>Virtualbox 5.0.26 r108824
+<li>Virtualbox 5.0.28, 5.1.8.
 </li></ul>
 <hr><h2 id="install-the-k8sdc-command">Install the k8sdc command</h2><p>The <code>k8sdc</code> command is implemented using Python.  It can be installed using <code>pip</code>.</p><p><strong>Note</strong></p><p>It is probably best to use a seperate <a href="https://virtualenv.pypa.io/en/stable/" target="_blank">Virtualenv</a> or <a href="https://github.com/yyuu/pyenv" target="_blank">Pyenv</a> environment.</p><pre><code>$ pip install k8sdc</code></pre>
-<p>The following dependancies will be installed along with <code>k8sdc</code>.</p><pre><code>ansible&gt;=2.1.2.0
-docopt&gt;=0.6.2</code></pre>
+<p>The following dependancies will be installed along with <code>k8sdc</code>.</p><pre><code>ansible==2.1.2.0
+docopt&gt;=0.6.2
+Jinja2&gt;=2.8
+pprintpp&gt;=0.2.3</code></pre>
 <p><strong>Note</strong></p><p>Ansible will also install a number of its own dependancies.</p><hr><h2 id="initialise-k8sdc">Initialise k8sdc</h2><p>Before installing <strong>k8sdc</strong>, a directory needs to be initialised with the files for a particular <em>Provider</em>.  The following example uses <a href="https://www.vagrantup.com" target="_blank">Vagrant</a> as the <em>Provider</em>.</p><pre><code>$ mkdir ~/k8sdc
 $ cd ~/k8sdc
 $ k8sdc init -p vagrant</code></pre>
-<p><strong>Note</strong></p><p>To install using the Vagrant <em>Provider</em> the following software versions must be installed.</p><ul><li>Vagrant 1.8.4
+<p><strong>Note</strong></p><p>To install using the Vagrant <em>Provider</em> the following software versions must be installed.</p><ul><li>Vagrant 1.8.7
 </li>
 <li>Virtualbox 5.0.26 and above
 </li></ul>
 <hr><h2 id="edit-the-provideryaml-file">Edit the provider.yaml file</h2><p>If you wish to change the install defaults then you can review and edit the <code>provider.yaml</code> file that has been created in the install root directory.</p><p><em>TODO</em></p><hr><h2 id="generate-public--private-key-pair-for-admin-user">Generate public / private key pair for admin user</h2><p>You can generate your own public / private key pair for the admin user or make use of the sample ones provided.  The key pair can be found in the <code>keys/</code> directory of the install root.</p><p><em>TODO</em></p><hr><h2 id="install-the-base-components">Install the base components</h2><p>The simplest way to install the <strong>k8sdc</strong> base components is by using <a href="../commands/k8sdc_up.html"><code>k8sdc up</code></a>.</p><pre><code>$ k8sdc up</code></pre>
-<p><strong>Note</strong></p><p>The default installation directory for the <code>kubectl</code> and <code>helm</code> commands is in the <code>bin/</code> directory of the install root.</p><hr><h2 id="validate-the-install">Validate the install</h2><p>Once <code>k8sdc up</code> has completed you should have a working installation of the <strong>k8sdc</strong> base components.  To test this use the following commands.</p><pre><code>$ export KUBECONFIG=`pwd`/config/kubectl.kubeconfig
+<p><strong>Notes</strong></p><ul><li>The default installation directory for the <code>kubectl</code> and <code>helm</code> commands is in the <code>bin/</code> directory of the install root.
+</li>
+<li>The initial install will take some time as the <em>Solution</em> images are also pulled so that the <em>Solutions</em> can be installed much faster.
+</li></ul>
+<hr><h2 id="validate-the-install">Validate the install</h2><p>Once <code>k8sdc up</code> has completed you should have a working installation of the <strong>k8sdc</strong> base components.  To test this use the following commands.</p><pre><code>$ export KUBECONFIG=`pwd`/config/kubectl.kubeconfig
 $ bin/kubectl get nodes</code></pre>
 <p>You should see the set of Kubernetes hosts, i.e.</p><pre><code>NAME                STATUS    AGE
 node1.vb.k8sdc.io   Ready     5m
 node2.vb.k8sdc.io   Ready     5m
 node3.vb.k8sdc.io   Ready     5m</code></pre>
-<hr><h2 id="install-the-solutions">Install the Solutions</h2><p>Once the <strong>k8sdc</strong> base components are installed the <a href="../reference/solution.html"><em>Solutions</em></a> can be applied.</p><p>For the moment you will need to create a new <em>Namespace</em>.  However this will soon be unecessary.</p><pre><code>$ bin/kubectl create ns k8sdc-infra</code></pre>
-<p>The the <em>Solutions</em> can be installed using <a href="../commands/k8sdc_sol.md"><code>k8sdc sol</code></a>.</p><pre><code>$ k8sdc sol</code></pre>
+<hr><h2 id="install-the-solutions">Install the Solutions</h2><p>Once the <strong>k8sdc</strong> base components are installed the <a href="../reference/solution.html"><em>Solutions</em></a> can be installed.</p><pre><code>$ k8sdc sol</code></pre>
 <p>Currently the following <em>Solutions</em> will be installed.</p><ul><li><a href="../reference/solutions/cs1_cluster_services.html">(cs1) Cluster Services</a>
 </li>
 <li><a href="../reference/solutions/cm1_cluster_management.html">(cm1) Cluster Management</a>
@@ -1194,7 +1212,8 @@ node3.vb.k8sdc.io   Ready     5m</code></pre>
 </li>
 <li><a href="../reference/solutions/jm1_job_management.html">(jm1) Job Management</a>
 </li></ul>
-<p>Edit <code>hosts</code></p>
+<hr><h2 id="modify-the-local-hosts-file">Modify the local hosts file</h2><p>Once the <strong>k8sdc</strong> <em>Solutions</em> are installed the local <code>hosts</code> file can be updated so that the <em>Solution</em> web UIs are accessible on the installation machine.</p><pre><code>$ sudo k8sdc hosts</code></pre>
+<p><strong>Note</strong></p><p>It is important to run the <code>k8sdc</code> command as <code>root</code>.</p><hr><h2 id="access-the-solutions">Access the Solutions</h2><p>Now you can access the web UIs of the <em>Solutions</em>  that provide one.</p><h4 id="cm1-cluster-management">(cm1) Cluster Management</h4><p><a href="http://dashboard.k8sdc.io" target="_blank">http://dashboard.k8sdc.io</a></p><h4 id="im1-identity-management">(im1) Identity Management</h4><p><a href="http://keycloak.k8sdc.io" target="_blank">http://keycloak.k8sdc.io</a></p><h4 id="m1-metrics">(m1) Metrics</h4><p><a href="http://grafana.k8sdc.io" target="_blank">http://grafana.k8sdc.io</a></p><p><a href="http://prometheus.k8sdc.io" target="_blank">http://prometheus.k8sdc.io</a></p><p><strong>Note</strong></p><p>Prometheus is currently non-functional.</p><h4 id="jm1-job-management">(jm1) Job Management</h4><p><a href="http://jenkins.k8sdc.io" target="_blank">http://jenkins.k8sdc.io</a></p><p><strong>Note</strong></p><p>More integration work needs to be done.</p>
                                 
                                 </section>
                             
@@ -1237,7 +1256,7 @@ node3.vb.k8sdc.io   Ready     5m</code></pre>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Install","level":"1.3","depth":1,"next":{"title":"Roadmap","level":"1.4","depth":1,"path":"k8sdc/roadmap.md","ref":"k8sdc/roadmap.md","articles":[]},"previous":{"title":"Topology","level":"1.2","depth":1,"path":"k8sdc/topology.md","ref":"k8sdc/topology.md","articles":[]},"dir":"ltr"},"config":{"plugins":["mermaid-gb3","ga","expandable-chapters","page-toc","back-to-top-button","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"search":{},"page-toc":{"position":"top","selector":".markdown-section h2, .markdown-section h3"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{"theme":"forest"},"back-to-top-button":{},"ga":{"configuration":"auto","token":"UA-71453622-2"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"Des Drury","lang":"en","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"k8sdc","gitbook":">= 3.2.0","description":"This book is about the k8sdc platform."},"file":{"path":"k8sdc/install.md","mtime":"2016-11-07T04:44:47.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-11-07T04:58:55.393Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Install","level":"1.3","depth":1,"next":{"title":"Roadmap","level":"1.4","depth":1,"path":"k8sdc/roadmap.md","ref":"k8sdc/roadmap.md","articles":[]},"previous":{"title":"Topology","level":"1.2","depth":1,"path":"k8sdc/topology.md","ref":"k8sdc/topology.md","articles":[]},"dir":"ltr"},"config":{"plugins":["mermaid-gb3","ga","expandable-chapters","page-toc","back-to-top-button"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search":{},"page-toc":{"position":"top","selector":".markdown-section h2, .markdown-section h3"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{"theme":"forest"},"back-to-top-button":{},"ga":{"configuration":"auto","token":"UA-71453622-2"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"Des Drury","lang":"en","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"k8sdc","gitbook":">= 3.2.0","description":"This book is about the k8sdc platform."},"file":{"path":"k8sdc/install.md","mtime":"2016-11-22T03:06:43.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-11-22T03:08:47.460Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -1269,10 +1288,6 @@ node3.vb.k8sdc.io   Ready     5m</code></pre>
     
         
         <script src="../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
         
     
         
