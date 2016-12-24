@@ -1,0 +1,320 @@
+2016-12-24 11:32:21: == Analyze Compares CheckSums of files that have the same size but different File Modification Time
+2016-12-24 11:32:21: -- Analysis Started by User
+2016-12-24 11:32:21: L: State file does not exist: /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/_gsdata_/_file_state_v4._gs
+2016-12-24 11:32:21: R: State file does not exist: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/_gsdata_/_file_state_v4._gs
+2016-12-24 11:32:21: /commands/README.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /commands/test.json: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /Dockerfile: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/fonts/fontawesome/fontawesome-webfont.eot: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/fonts/fontawesome/fontawesome-webfont.svg: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/fonts/fontawesome/fontawesome-webfont.ttf: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/fonts/fontawesome/fontawesome-webfont.woff: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/fonts/fontawesome/fontawesome-webfont.woff2: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/fonts/fontawesome/FontAwesome.otf: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-back-to-top-button/plugin.css: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-back-to-top-button/plugin.js: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-fontsettings/fontsettings.js: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-fontsettings/website.css: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-ga/plugin.js: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-highlight/ebook.css: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-highlight/website.css: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-lunr/lunr.min.js: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-lunr/search-lunr.js: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.forest.css: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-page-toc/anchor-3.1.1.min.js: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-page-toc/page-toc.css: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-page-toc/page-toc.js: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-search/lunr.min.js: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-search/search-engine.js: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-search/search.css: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-search/search.js: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook-plugin-sharing/buttons.js: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/gitbook.js: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/images/apple-touch-icon-precomposed-152.png: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/images/favicon.ico: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/style.css: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /gitbook/theme.js: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /k8sdc/images/content_placeholder.png: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /k8sdc/images/k8sdc_base_topology.png: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /k8sdc/images/k8sdc_capability_solution_product.png: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /k8sdc/images/k8sdc_overview.png: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/installation/aws.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/installation/custom_install.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/installation/digital_ocean.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/installation/services.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/installation/vagrant.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/installation/verify_install.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/services/cluster/dns.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/services/cluster/kube-ui.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/services/cluster/logging.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/services/cluster/monitoring.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/services/cluster/overview.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/services/cluster/registry.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/services/development/artifact-management.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/services/development/job-management.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/services/development/overview.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/services/development/roadmap.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/services/infrastructure/ldap.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/services/infrastructure/load-balancing.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/services/infrastructure/overview.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/services/infrastructure/roadmap.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/services/productivity/overview.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /project/services/productivity/roadmap.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: /reference/FAQ.md: Files differ per Mod Time but are the same per CheckSum
+2016-12-24 11:32:21: Changes: 58 (122), Conflicts: 0, CopyTime: 64, CopyState: 0/37, Errors: 0, All: 160
+2016-12-24 11:32:21: Left to Right: Copy File: 57 Delete File: 1 Copy Time: 64 
+2016-12-24 11:32:21: -- Analysis Complete. Time 00:00:00, Speed: Many files/s
+2016-12-24 11:32:21: 
+2016-12-24 11:32:22: == Sync Compares CheckSums of files that were just Synced to ensure that file copied correctly
+2016-12-24 11:32:22: New _gsdata_ folder(s) created, so rescan all job folders for their ghosts
+2016-12-24 11:32:22: == Sync Started by User
+2016-12-24 11:32:22: Delete File '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/.gitignore'
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/ansible/index.html
+2016-12-24 11:32:22: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/ansible/index.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/ansible/index.html'
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/ansible/kubernetes.html
+2016-12-24 11:32:22: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/ansible/kubernetes.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/ansible/kubernetes.html'
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/ansible/roles.html
+2016-12-24 11:32:22: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/ansible/roles.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/ansible/roles.html'
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/commands/k8sdc.html
+2016-12-24 11:32:22: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/commands/k8sdc.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/commands/k8sdc.html'
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/commands/k8sdc_up.html
+2016-12-24 11:32:22: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/commands/k8sdc_up.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/commands/k8sdc_up.html'
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/commands/README.md
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/commands/README.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/commands/README.md
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/commands/test.json
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/commands/test.json to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/commands/test.json
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/Dockerfile
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/Dockerfile to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/Dockerfile
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/fonts/fontawesome/fontawesome-webfont.eot
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/fonts/fontawesome/fontawesome-webfont.eot to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/fonts/fontawesome/fontawesome-webfont.eot
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/fonts/fontawesome/fontawesome-webfont.svg
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/fonts/fontawesome/fontawesome-webfont.svg to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/fonts/fontawesome/fontawesome-webfont.svg
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/fonts/fontawesome/fontawesome-webfont.ttf
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/fonts/fontawesome/fontawesome-webfont.ttf to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/fonts/fontawesome/fontawesome-webfont.ttf
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/fonts/fontawesome/fontawesome-webfont.woff
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/fonts/fontawesome/fontawesome-webfont.woff to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/fonts/fontawesome/fontawesome-webfont.woff
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/fonts/fontawesome/fontawesome-webfont.woff2
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/fonts/fontawesome/fontawesome-webfont.woff2 to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/fonts/fontawesome/fontawesome-webfont.woff2
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/fonts/fontawesome/FontAwesome.otf
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/fonts/fontawesome/FontAwesome.otf to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/fonts/fontawesome/FontAwesome.otf
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-back-to-top-button/plugin.css
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-back-to-top-button/plugin.css to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-back-to-top-button/plugin.css
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-back-to-top-button/plugin.js
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-back-to-top-button/plugin.js to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-back-to-top-button/plugin.js
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-fontsettings/fontsettings.js
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-fontsettings/fontsettings.js to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-fontsettings/fontsettings.js
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-fontsettings/website.css
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-fontsettings/website.css to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-fontsettings/website.css
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-ga/plugin.js
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-ga/plugin.js to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-ga/plugin.js
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-highlight/ebook.css
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-highlight/ebook.css to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-highlight/ebook.css
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-highlight/website.css
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-highlight/website.css to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-highlight/website.css
+2016-12-24 11:32:22: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-lunr/lunr.min.js
+2016-12-24 11:32:22: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-lunr/lunr.min.js to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-lunr/lunr.min.js
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-lunr/search-lunr.js
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-lunr/search-lunr.js to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-lunr/search-lunr.js
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.forest.css
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.forest.css to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.forest.css
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-page-toc/anchor-3.1.1.min.js
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-page-toc/anchor-3.1.1.min.js to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-page-toc/anchor-3.1.1.min.js
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-page-toc/page-toc.css
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-page-toc/page-toc.css to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-page-toc/page-toc.css
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-page-toc/page-toc.js
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-page-toc/page-toc.js to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-page-toc/page-toc.js
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-search/lunr.min.js
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-search/lunr.min.js to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-search/lunr.min.js
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-search/search-engine.js
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-search/search-engine.js to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-search/search-engine.js
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-search/search.css
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-search/search.css to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-search/search.css
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-search/search.js
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-search/search.js to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-search/search.js
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-sharing/buttons.js
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook-plugin-sharing/buttons.js to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook-plugin-sharing/buttons.js
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook.js
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/gitbook.js to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/gitbook.js
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/images/apple-touch-icon-precomposed-152.png
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/images/apple-touch-icon-precomposed-152.png to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/images/apple-touch-icon-precomposed-152.png
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/images/favicon.ico
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/images/favicon.ico to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/images/favicon.ico
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/style.css
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/style.css to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/style.css
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/theme.js
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/gitbook/theme.js to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/gitbook/theme.js
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/administration/index.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/guides/administration/index.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/administration/index.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/examples/complex-app.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/guides/examples/complex-app.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/examples/complex-app.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/examples/dynamic-website.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/guides/examples/dynamic-website.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/examples/dynamic-website.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/examples/index.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/guides/examples/index.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/examples/index.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/examples/microservice-set.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/guides/examples/microservice-set.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/examples/microservice-set.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/examples/microservice.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/guides/examples/microservice.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/examples/microservice.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/examples/static-website.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/guides/examples/static-website.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/examples/static-website.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/workflow/development.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/guides/workflow/development.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/workflow/development.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/workflow/index.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/guides/workflow/index.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/workflow/index.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/workflow/infrastructure.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/guides/workflow/infrastructure.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/workflow/infrastructure.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/workflow/productivity.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/guides/workflow/productivity.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/guides/workflow/productivity.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/helm/index.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/helm/index.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/helm/index.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/index.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/index.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/index.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/acknowledgements.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/k8sdc/acknowledgements.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/acknowledgements.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/changelog.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/k8sdc/changelog.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/changelog.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/contributing.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/k8sdc/contributing.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/contributing.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/images/content_placeholder.png
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/k8sdc/images/content_placeholder.png to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/images/content_placeholder.png
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/images/k8sdc_base_topology.png
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/k8sdc/images/k8sdc_base_topology.png to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/images/k8sdc_base_topology.png
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/images/k8sdc_capability_solution_product.png
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/k8sdc/images/k8sdc_capability_solution_product.png to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/images/k8sdc_capability_solution_product.png
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/images/k8sdc_overview.png
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/k8sdc/images/k8sdc_overview.png to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/images/k8sdc_overview.png
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/install.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/k8sdc/install.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/install.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/roadmap.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/k8sdc/roadmap.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/roadmap.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/topology.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/k8sdc/topology.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/k8sdc/topology.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/kubernetes/index.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/kubernetes/index.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/kubernetes/index.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/installation/aws.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/installation/aws.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/installation/aws.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/installation/custom_install.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/installation/custom_install.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/installation/custom_install.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/installation/digital_ocean.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/installation/digital_ocean.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/installation/digital_ocean.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/installation/services.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/installation/services.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/installation/services.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/installation/vagrant.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/installation/vagrant.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/installation/vagrant.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/installation/verify_install.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/installation/verify_install.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/installation/verify_install.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/cluster/dns.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/services/cluster/dns.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/cluster/dns.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/cluster/kube-ui.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/services/cluster/kube-ui.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/cluster/kube-ui.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/cluster/logging.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/services/cluster/logging.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/cluster/logging.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/cluster/monitoring.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/services/cluster/monitoring.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/cluster/monitoring.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/cluster/overview.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/services/cluster/overview.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/cluster/overview.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/cluster/registry.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/services/cluster/registry.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/cluster/registry.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/development/artifact-management.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/services/development/artifact-management.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/development/artifact-management.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/development/job-management.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/services/development/job-management.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/development/job-management.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/development/overview.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/services/development/overview.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/development/overview.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/development/roadmap.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/services/development/roadmap.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/development/roadmap.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/infrastructure/ldap.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/services/infrastructure/ldap.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/infrastructure/ldap.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/infrastructure/load-balancing.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/services/infrastructure/load-balancing.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/infrastructure/load-balancing.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/infrastructure/overview.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/services/infrastructure/overview.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/infrastructure/overview.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/infrastructure/roadmap.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/services/infrastructure/roadmap.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/infrastructure/roadmap.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/productivity/overview.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/services/productivity/overview.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/productivity/overview.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/productivity/roadmap.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/project/services/productivity/roadmap.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/project/services/productivity/roadmap.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/providers/digital_ocean.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/providers/digital_ocean.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/providers/digital_ocean.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/providers/federation.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/providers/federation.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/providers/federation.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/providers/index.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/providers/index.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/providers/index.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/providers/vagrant.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/providers/vagrant.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/providers/vagrant.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/artifact_storage.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/capabilities/artifact_storage.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/artifact_storage.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/cluster_management.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/capabilities/cluster_management.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/cluster_management.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/cluster_services.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/capabilities/cluster_services.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/cluster_services.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/distributed_block_storage.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/capabilities/distributed_block_storage.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/distributed_block_storage.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/https_reverse_proxy.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/capabilities/https_reverse_proxy.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/https_reverse_proxy.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/identity_management.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/capabilities/identity_management.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/identity_management.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/image_repository.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/capabilities/image_repository.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/image_repository.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/job_management.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/capabilities/job_management.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/job_management.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/logging.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/capabilities/logging.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/logging.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/metrics.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/capabilities/metrics.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capabilities/metrics.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capability.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/capability.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/capability.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/changelog.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/changelog.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/changelog.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/faq.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/faq.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/faq.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/FAQ.md
+2016-12-24 11:32:23: Copy Mod Time of /Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/FAQ.md to /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/FAQ.md
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/glossary.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/glossary.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/glossary.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/product.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/product.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/product.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solution.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/solution.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solution.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/as1_artifact_storage.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/solutions/as1_artifact_storage.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/as1_artifact_storage.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/cm1_cluster_management.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/solutions/cm1_cluster_management.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/cm1_cluster_management.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/cs1_cluster_services.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/solutions/cs1_cluster_services.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/cs1_cluster_services.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/dbs1_distributed_block_storage.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/solutions/dbs1_distributed_block_storage.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/dbs1_distributed_block_storage.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/hrp1_https_reverse_proxy.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/solutions/hrp1_https_reverse_proxy.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/hrp1_https_reverse_proxy.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/im1_identity_management.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/solutions/im1_identity_management.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/im1_identity_management.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/ir1_image_repository.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/solutions/ir1_image_repository.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/ir1_image_repository.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/jm1_job_management.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/solutions/jm1_job_management.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/jm1_job_management.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/l1_logging.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/solutions/l1_logging.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/l1_logging.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/m1_metrics.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/solutions/m1_metrics.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/solutions/m1_metrics.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/utilities.html
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/reference/utilities.html' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/reference/utilities.html'
+2016-12-24 11:32:23: Copy Confirmed by CheckSum: /Users/desdrury/Sites/k8sdc/k8sdc.github.io/search_index.json
+2016-12-24 11:32:23: Copy Over '/Users/desdrury/Sites/Citopro/k8sdc/docs/_book/search_index.json' -> '/Users/desdrury/Sites/k8sdc/k8sdc.github.io/search_index.json'
+2016-12-24 11:32:23: == Sync Complete. Time: 00:00:01, Speed: 2.0 MB/s, OK: 159, Errors: 0
+2016-12-24 11:32:23: 
